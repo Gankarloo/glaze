@@ -1,3 +1,4 @@
+// Package glaze provides helper functions that extend lipgloss styling.
 package glaze
 
 import (
@@ -6,9 +7,6 @@ import (
 	"github.com/charmbracelet/lipgloss"
 )
 
-type Glaze struct{
-	lipgloss.
-}
 // BorderWithTitle renders a string inside a box with a title embedded in the top border.
 // position: 0.0 (left), 0.5 (center), 1.0 (right)
 func BorderWithTitle(content string, title string, style lipgloss.Style, position lipgloss.Position) string {
